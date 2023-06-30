@@ -15,7 +15,7 @@ const News = () => {
     <>
       <Row justify="space-between" align="middle">
         <Col>
-          <Typography.Title style={{ marginBottom: 0 }}>
+          <Typography.Title className={cls.title}>
             Popular Right Now
           </Typography.Title>
         </Col>
@@ -33,6 +33,7 @@ const News = () => {
                 setSelectedId={setSelectedId}
                 lessImage={index % 2 === 1}
                 actions={{ edit: <EditButton newsItem={newsItem} /> }}
+                leftCol
               />
             </motion.div>
           ))}

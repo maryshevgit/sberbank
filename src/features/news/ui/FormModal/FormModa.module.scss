@@ -6,3 +6,11 @@
 	width: 100%;
 	justify-content: end;
 }
+
+.image {
+	width: 300px;
+
+	@media (width <= 500px) {
+		width: 150px;
+	}
+}

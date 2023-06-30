@@ -66,7 +66,7 @@ export const FormModal = ({ isOpen, onClose, editItem }: FormModalProps) => {
       <Form
         form={form}
         onFinish={onFinish}
-        labelCol={{ span: 3 }}
+        labelCol={{ span: 4 }}
         wrapperCol={{ span: 24 }}
       >
         <Form.Item

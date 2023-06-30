@@ -26,7 +26,7 @@ export const editNews = createAsyncThunk<INewsCard, INewsCard, ThunkApiConfig>(
       }
 
       notification.success({
-        placement: 'topLeft',
+        placement: 'top',
         message: 'Новость успешно отредактирована',
       });
 

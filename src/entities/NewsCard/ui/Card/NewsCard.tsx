@@ -1,4 +1,4 @@
-import { Card, Space } from 'antd';
+import { Card } from 'antd';
 import clsx from 'clsx';
 import { ReactElement } from 'react';
 import { INewsCard } from '../../model/types/types';
@@ -15,6 +15,7 @@ interface NewsCardProps {
   lessImage?: boolean;
   actions: ActionsType;
   setSelectedId: (param: string) => void;
+  leftCol?: boolean;
 }
 
 export const NewsCard = ({
@@ -22,23 +23,30 @@ export const NewsCard = ({
   lessImage,
   actions,
   setSelectedId,
+  leftCol,
 }: NewsCardProps) => {
   const { isAuth } = useAppSelector((state) => state.user);
 
   return (
     <Card hoverable onClick={() => setSelectedId(newsItem.id)}>
-      <Space align="start">
+      <div className={clsx(cls.wrapperHead, { [cls.leftCol]: leftCol })}>
         <Card.Meta
           description={<p>{newsItem?.text}</p>}
           title={<h2 className={cls.title}>{newsItem.title}</h2>}
+          className={cls.meta}
         />
 
         {newsItem?.imagePath && (
-          <div className={clsx(cls.image, { [cls.lessImage]: lessImage })}>
+          <div
+            className={clsx(cls.image, {
+              [cls.lessImage]: lessImage,
+              [cls.leftColImage]: leftCol,
+            })}
+          >
             <LazyImage alt={newsItem.title} src={newsItem.imagePath} />
           </div>
         )}
-      </Space>
+      </div>
 
       {isAuth && <div onClick={(e) => e.stopPropagation()}>{actions.edit}</div>}
     </Card>

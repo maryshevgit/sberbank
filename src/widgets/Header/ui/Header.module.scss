@@ -5,4 +5,9 @@
 	align-items: center;
 	gap: 10px;
 	height: var(--header-height);
+	padding: 20px;
+
+	@media (width <= 500px) {
+		padding: 10px;
+	}
 }
