@@ -22,7 +22,8 @@ const informationItems: InFormationItem[] = [
       'In Rameswaram, on the Tamil Nadu coast, it is a dying art. More girls are now able to go to school and pursue working lives that are less dependent on the dangerous tides and bruising work.\n' +
       '\n' +
       'Sethunambu, who, like most of the women, goes by only one name, thinks she is about 60 now, and has been diving for much of her adult life. “I am in this profession for the past 20 years, and I have encountered the risks along with other women like me,” she says.',
-    image: 'https://ltdfoto.ru/images/2023/06/30/BEZ-NAZVANIY-1.jpg',
+    image:
+      'https://i.guim.co.uk/img/media/8ca7845729da42676365bb7238594078c22522c4/0_0_5184_3888/master/5184.jpg?width=1900&quality=45&dpr=2&s=none',
   },
   {
     id: 2,
@@ -42,7 +43,8 @@ const informationItems: InFormationItem[] = [
       'At Manthorpe Building Products’ factory in Derbyshire, it takes just under a minute to produce a single swift brick that could provide a safe haven for generations of these migratory birds. Granules of recycled plastic are put into an injection moulding machine and, moments later, the separate parts of the brick come out, before a worker snaps them together.\n' +
       '\n' +
       'Manthorpe has already made 20,000 bricks. Dozens of workers in hi-vis vests group around futuristic-looking machines, producing a wide range of building products from loft hatches to drains. Yet it’s the swift bricks that have proved a surprise hit, with demand steadily increasing year on year, says the company’s managing director, Paul Manning.',
-    image: 'https://ltdfoto.ru/images/2023/06/30/unnamed.jpg',
+    image:
+      'https://i.guim.co.uk/img/media/1067b3250f0eea5adaf2553aec9a4e75326bebdc/0_469_6691_4015/master/6691.jpg?width=1300&quality=45&dpr=2&s=none',
   },
   {
     id: 3,
@@ -51,7 +53,8 @@ const informationItems: InFormationItem[] = [
       'By now, you may be familiar with Aron D’Souza – an Oxford-educated lawyer, entrepreneur, self-publicist, the type of character for whom LinkedIn was invented – and his bid to become the sports world’s Victor Frankenstein. In publicly announcing his ambitious plans for the Enhanced Games – essentially, a drugs Olympics, where doping is encouraged and anything goes – last week, D’Souza insisted his motives have little to do with personal financial gain.\n' +
       '\n' +
       '“I’ve had a very successful career as a venture capitalist, as a tech entrepreneur,” said the man whose newly created online biography features his inclusion on the 2014 Australian Men’s Style magazine’s “Men of Influence” list. “If I wanted to simply make money I would continue to do that.”',
-    image: 'https://ltdfoto.ru/images/2023/06/30/unnamed-1.jpg',
+    image:
+      'https://lh3.googleusercontent.com/GcwjeeO6QCdidqrrnI2jgx41_MbQ9B5Yvtf64CaX_Qpj5Y9d1MnGnmidLUNxXnwrVzx83B7CJAoBFl9u2lX1JvPjik1aZASs8DZcaxcLjA',
   },
 ];
 
