@@ -1,0 +1,13 @@
+.sidebar {
+	padding: 10px 5px;
+	height: 100%;
+
+	ul {
+		height: 100%;
+	}
+}
+
+.sidebarItem {
+	font-size: var(--font-size-m);
+	line-height: var(--font-line-m);
+}

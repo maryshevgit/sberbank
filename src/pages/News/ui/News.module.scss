@@ -1,0 +1,16 @@
+.colLeft {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex-basis: 40%;
+	border-right: 1px solid var(--gray-color);
+	padding-right: 10px;
+}
+
+.colRight {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex-basis: 60%;
+	padding-left: 10px;
+}
