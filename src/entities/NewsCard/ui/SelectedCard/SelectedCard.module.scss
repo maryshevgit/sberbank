@@ -1,7 +1,52 @@
+.card {
+	position: relative;
+
+	@media (width <= 850px) {
+		border-radius: 0;
+	}
+}
+
+.closeButton {
+	display: none;
+	margin-left: auto;
+	margin-bottom: 10px;
+
+	@media (width <= 850px) {
+		display: block;
+	}
+}
+
+.icon {
+	font-size: 30px;
+	margin-bottom: 20px;
+	transition: var(--transition-slow);
+
+	&:hover {
+		color: var(--blue-color);
+	}
+}
+
+.body {
+	@media (width <= 850px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .cardImage {
 	width: 400px;
 	float: right;
-	padding: 0 20px;
+	padding: 0 0 0 20px;
+
+	@media (width <= 1000px) {
+		width: 200px;
+	}
+
+	@media (width <= 850px) {
+		width: 100%;
+		padding: 0 0 20px;
+	}
 }
 
 .cardTitle {

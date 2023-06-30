@@ -2,20 +2,42 @@
 	width: 100%;
 }
 
+.row {
+	@media (width <= 1000px) {
+		flex-direction: column;
+	}
+}
+
 .colLeft {
 	width: 70%;
+
+	@media (width <= 1000px) {
+		width: 100%;
+	}
 }
 
 .colRight {
 	width: 30%;
+
+	@media (width <= 1000px) {
+		width: 100%;
+	}
 }
 
 .rightImage {
 	padding-left: 10px;
+
+	@media (width <= 1000px) {
+		padding: 10px 0 0;
+	}
 }
 
 .leftImage {
 	padding-right: 10px;
+
+	@media (width <= 1000px) {
+		padding: 0 0 10px;
+	}
 }
 
 .title {

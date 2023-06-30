@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 import cls from './AnimationDetailOverlay.module.scss';
 
 interface AnimationDetailOverlayProps {
@@ -13,6 +13,18 @@ export const AnimationDetailOverlay = ({
   setSelectedId,
   children,
 }: AnimationDetailOverlayProps) => {
+  const html = document.getElementsByTagName('html')[0];
+
+  useEffect(() => {
+    if (selectedId) {
+      html.style.overflow = 'hidden';
+    }
+
+    return () => {
+      html.style.overflow = 'auto';
+    };
+  }, [html, selectedId]);
+
   return (
     <AnimatePresence>
       {selectedId && (

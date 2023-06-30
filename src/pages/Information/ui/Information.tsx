@@ -67,7 +67,7 @@ const Information = () => {
       <Space direction="vertical">
         {informationItems.map((informationItem, index) => (
           <Card key={informationItem.id}>
-            <Row>
+            <Row className={cls.row}>
               <Col order={index % 2 === 1 ? 2 : 1} className={cls.colLeft}>
                 <Card.Meta
                   description={<p>{informationItem.text}</p>}

@@ -1,0 +1,7 @@
+.title {
+	margin-bottom: 0 !important;
+
+	@media (width <= 400px) {
+		margin-bottom: 10px !important;
+	}
+}

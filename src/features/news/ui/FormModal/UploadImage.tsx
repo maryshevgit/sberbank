@@ -1,5 +1,6 @@
 import { Button, Form, Image, message, Space, Upload } from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
+import cls from './FormModa.module.scss';
 
 interface UploadImageProps {
   imagePath: string;
@@ -33,15 +34,25 @@ export const UploadImage = ({ setImagePath, imagePath }: UploadImageProps) => {
     >
       {!imagePath && (
         <Upload beforeUpload={handleImageUpload} showUploadList={false}>
-          <Button type="primary" icon={<UploadOutlined />} size="large">
+          <Button
+            htmlType="button"
+            type="primary"
+            icon={<UploadOutlined />}
+            size="large"
+          >
             Upload
           </Button>
         </Upload>
       )}
       {imagePath && (
         <Space>
-          <Image width={300} src={imagePath} />
-          <Button onClick={() => setImagePath('')} type="primary" danger>
+          <Image className={cls.image} src={imagePath} />
+          <Button
+            htmlType="button"
+            onClick={() => setImagePath('')}
+            type="primary"
+            danger
+          >
             Удалить
           </Button>
         </Space>

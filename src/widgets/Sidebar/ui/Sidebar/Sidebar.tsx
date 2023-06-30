@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Layout, Menu, Space } from 'antd';
+import { Layout, Menu } from 'antd';
 import { NavLink, useLocation } from 'react-router-dom';
 import {
   AppstoreOutlined,
@@ -22,32 +22,33 @@ export const Sidebar = () => {
   }, [pathname]);
 
   return (
-    <Layout.Sider width={200} theme="light">
-      <nav className={cls.sidebar}>
+    <Layout.Sider className={cls.sidebar} theme="light">
+      <nav className={cls.navbar}>
         <Menu selectedKeys={[selectedOption]} theme="light">
           <Menu.Item key={getRouteNews()}>
-            <NavLink className={cls.sidebarItem} to={getRouteNews()}>
-              <Space>
+            <NavLink className={cls.sidebarLink} to={getRouteNews()}>
+              <div className={cls.space}>
                 <AppstoreOutlined />
-                Новости
-              </Space>
+                <span className={cls.spanText}>Новости</span>
+              </div>
             </NavLink>
           </Menu.Item>
 
           <Menu.Item key={getRouteInformation()}>
-            <NavLink className={cls.sidebarItem} to={getRouteInformation()}>
-              <Space>
+            <NavLink className={cls.sidebarLink} to={getRouteInformation()}>
+              <div className={cls.space}>
                 <InfoCircleOutlined />
-                Информация
-              </Space>
+                <span className={cls.spanText}>Информация</span>
+              </div>
             </NavLink>
           </Menu.Item>
 
           <Menu.Item key={getRouteAbout()}>
-            <NavLink className={cls.sidebarItem} to={getRouteAbout()}>
-              <Space>
-                <QuestionCircleOutlined />О нас
-              </Space>
+            <NavLink className={cls.sidebarLink} to={getRouteAbout()}>
+              <div className={cls.space}>
+                <QuestionCircleOutlined />
+                <span className={cls.spanText}>О нас</span>
+              </div>
             </NavLink>
           </Menu.Item>
         </Menu>

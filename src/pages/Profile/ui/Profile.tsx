@@ -1,6 +1,7 @@
 import { Col, Divider, Row, Space, Switch, Typography } from 'antd';
 import { useState } from 'react';
 import { FormProfile } from '@/features/profile';
+import cls from './Profile.module.scss';
 
 const Profile = () => {
   const [isEditable, setIsEditable] = useState<boolean>(false);
@@ -9,9 +10,7 @@ const Profile = () => {
     <>
       <Row justify="space-between" align="middle">
         <Col>
-          <Typography.Title style={{ marginBottom: 0 }}>
-            Профиль
-          </Typography.Title>
+          <Typography.Title className={cls.title}>Профиль</Typography.Title>
         </Col>
         <Col>
           <Space direction="horizontal" align="center">

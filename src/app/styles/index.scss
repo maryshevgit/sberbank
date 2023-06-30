@@ -7,4 +7,18 @@
 
 .main {
 	padding: 20px;
+
+	@media (width <= 500px) {
+		padding: 10px;
+	}
+}
+
+*::-webkit-scrollbar {
+	width: 4px;
+	height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: lightblue;
+	border-radius: 20px;
 }

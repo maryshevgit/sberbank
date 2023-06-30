@@ -38,7 +38,7 @@ export const editProfile = createAsyncThunk<
     }
 
     notification.success({
-      placement: 'topLeft',
+      placement: 'top',
       message: 'Профиль успешно отредактирован',
     });
 

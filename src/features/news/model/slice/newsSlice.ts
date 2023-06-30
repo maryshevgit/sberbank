@@ -65,20 +65,6 @@ const initialState: NewsSchema = {
     {
       id: '7',
       title:
-        "Jennifer Lawrence says she only understands the plot of her horror movie 'Mother' because she was 'sleeping with the director'",
-      fullText:
-        'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-    },
-    {
-      id: '8',
-      title:
-        'A novella published 14 years before the Titanic sank seemed to have predicted the disaster',
-      fullText:
-        'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-    },
-    {
-      id: '9',
-      title:
         'A passenger fell overboard off the 10th deck of a Royal Caribbean cruise ship, but was miraculously saved after an hour-long rescue',
       imagePath: titanicImage,
       fullText:
