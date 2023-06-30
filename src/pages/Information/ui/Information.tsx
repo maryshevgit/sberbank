@@ -64,13 +64,13 @@ const Information = () => {
         {informationItems.map((informationItem, index) => (
           <Card key={informationItem.id}>
             <Row>
-              <Col span={12} order={index % 2 === 1 ? 2 : 1}>
+              <Col order={index % 2 === 1 ? 2 : 1} className={cls.colLeft}>
                 <Card.Meta
                   description={<p>{informationItem.text}</p>}
                   title={<h2 className={cls.title}>{informationItem.title}</h2>}
                 />
               </Col>
-              <Col span={12} order={index % 2 === 1 ? 1 : 2}>
+              <Col order={index % 2 === 1 ? 1 : 2} className={cls.colRight}>
                 <img
                   className={clsx(cls.image, {
                     [cls.leftImage]: index % 2 === 1,
