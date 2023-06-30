@@ -35,6 +35,7 @@ export const LazyImage = ({ src, alt, className }: LazyImageProps) => {
         className={className}
         src={src}
         alt={alt}
+        loading="lazy"
         preview={false}
         onLoad={handleImageLoad}
         style={{ opacity: isLoaded ? 1 : 0, transition: 'opacity 0.3s' }}

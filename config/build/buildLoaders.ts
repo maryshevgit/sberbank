@@ -21,6 +21,11 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
     use: [
       {
         loader: 'file-loader',
+        options: {
+          name: '[name].[contenthash].[ext]',
+          outputPath: 'images',
+          publicPath: '/images',
+        },
       },
     ],
   };
