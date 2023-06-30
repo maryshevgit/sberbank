@@ -2,6 +2,11 @@ import { createSlice } from '@reduxjs/toolkit';
 import { addNews } from '../services/addNews/addNews';
 import { NewsSchema } from '../types/NewsSchema';
 import { editNews } from '../services/editNews/editNews';
+import manImage from '@/shared/assets/news/man.png';
+import titanicImage from '@/shared/assets/news/titanic.png';
+import carImage from '@/shared/assets/news/car.png';
+import oceanImage from '@/shared/assets/news/ocean.png';
+import familyImage from '@/shared/assets/news/family.png';
 
 const initialState: NewsSchema = {
   isLoading: false,
@@ -11,8 +16,7 @@ const initialState: NewsSchema = {
       text: 'Chris Williams recommends that anyone placed on a performance-improvement plan should immediately plan their next steps outside of the company.',
       title:
         'Microsofts ex-VP of HR says you should leave a company right away if you get put on a PIP: Surviving it is like a sign on your back',
-      imagePath:
-        'https://i.insider.com/649b21996eb0a800194d5b67?width=400&format=jpeg&auto=webp',
+      imagePath: manImage,
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
@@ -21,8 +25,7 @@ const initialState: NewsSchema = {
       title:
         'Worried passengers banded together as lookouts during rescue of overboard woman on Royal Caribbean ship, witness says',
       text: 'A 42-year-old woman miraculously survived after going overboard the 10th deck of a Royal Caribbean cruise ship on Sunday.',
-      imagePath:
-        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
+      imagePath: oceanImage,
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
@@ -41,8 +44,7 @@ const initialState: NewsSchema = {
       text: 'The Noah-Vermillions have spent $60,000 so far renovating the 120-year-old home in Syracuse, New York.',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-      imagePath:
-        'https://i.insider.com/649cb5331bde9d0019b520f7?width=200&format=jpeg&auto=webp',
+      imagePath: familyImage,
     },
     {
       id: '5',
@@ -51,8 +53,7 @@ const initialState: NewsSchema = {
       text: 'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-      imagePath:
-        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
+      imagePath: carImage,
     },
     {
       id: '6',
@@ -79,8 +80,7 @@ const initialState: NewsSchema = {
       id: '9',
       title:
         'A passenger fell overboard off the 10th deck of a Royal Caribbean cruise ship, but was miraculously saved after an hour-long rescue',
-      imagePath:
-        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
+      imagePath: titanicImage,
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
