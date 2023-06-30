@@ -11,7 +11,8 @@ const initialState: NewsSchema = {
       text: 'Chris Williams recommends that anyone placed on a performance-improvement plan should immediately plan their next steps outside of the company.',
       title:
         'Microsofts ex-VP of HR says you should leave a company right away if you get put on a PIP: Surviving it is like a sign on your back',
-      imagePath: 'https://ltdfoto.ru/images/2023/06/30/BEZ.jpg',
+      imagePath:
+        'https://i.insider.com/649b21996eb0a800194d5b67?width=400&format=jpeg&auto=webp',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
@@ -20,7 +21,8 @@ const initialState: NewsSchema = {
       title:
         'Worried passengers banded together as lookouts during rescue of overboard woman on Royal Caribbean ship, witness says',
       text: 'A 42-year-old woman miraculously survived after going overboard the 10th deck of a Royal Caribbean cruise ship on Sunday.',
-      imagePath: 'https://ltdfoto.ru/images/2023/06/30/VFY.jpg',
+      imagePath:
+        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
@@ -39,7 +41,8 @@ const initialState: NewsSchema = {
       text: 'The Noah-Vermillions have spent $60,000 so far renovating the 120-year-old home in Syracuse, New York.',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-      imagePath: 'https://ltdfoto.ru/images/2023/06/30/YVAYV.jpg',
+      imagePath:
+        'https://i.insider.com/649cb5331bde9d0019b520f7?width=200&format=jpeg&auto=webp',
     },
     {
       id: '5',
@@ -48,7 +51,8 @@ const initialState: NewsSchema = {
       text: 'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
-      imagePath: 'https://ltdfoto.ru/images/2023/06/30/AVY.jpg',
+      imagePath:
+        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
     },
     {
       id: '6',
@@ -75,7 +79,8 @@ const initialState: NewsSchema = {
       id: '9',
       title:
         'A passenger fell overboard off the 10th deck of a Royal Caribbean cruise ship, but was miraculously saved after an hour-long rescue',
-      imagePath: 'https://ltdfoto.ru/images/2023/06/30/BEZ-NAZVANIY.jpg',
+      imagePath:
+        'https://i.insider.com/649b08fc6eb0a800194d5645?width=400&format=jpeg&auto=webp',
       fullText:
         'The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at. The sudden influx in EVs on lots could help reduce frustration with not being able to find an EV to test drive or even just take a look at.',
     },
